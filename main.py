@@ -3,6 +3,6 @@ def custom_agent_function(state):
     user_input = state.get("user_input", "")
     
     # Simple input processing, for example, modifying the string
-    result = f"Processed text by agent: {user_input.upper()}"
+    result = f"Processed text by agent modified: {user_input.upper()}"
     
     return result
